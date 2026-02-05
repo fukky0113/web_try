@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIX - AIツールのランディングページ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <header class="border-b border-white/10 bg-slate-950/80 backdrop-blur">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
+        <div class="text-xl font-semibold tracking-wide">AIX</div>
+        <nav class="hidden items-center gap-8 text-sm text-slate-300 md:flex">
+          <a class="transition hover:text-white" href="#features">Features</a>
+          <a class="transition hover:text-white" href="#pricing">Pricing</a>
+          <a class="transition hover:text-white" href="#docs">Docs</a>
+        </nav>
+        <button
+          class="rounded-full bg-indigo-500 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:bg-indigo-400"
+        >
+          Get Started
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0">
+          <div class="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/30 blur-3xl"></div>
+          <div class="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl"></div>
+        </div>
+        <div class="relative mx-auto grid w-full max-w-6xl gap-12 px-6 py-20 md:grid-cols-2 md:items-center">
+          <div>
+            <p class="text-sm uppercase tracking-[0.3em] text-indigo-300">
+              AI Tool Platform
+            </p>
+            <h1 class="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
+              AIで業務を10倍速く
+            </h1>
+            <p class="mt-5 text-lg text-slate-300">
+              ワークフローの自動化、分析、洞察を一つのプラットフォームで。
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <button
+                class="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
+              >
+                Get Started
+              </button>
+              <button
+                class="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white/90 transition hover:border-white/40 hover:text-white"
+              >
+                Contact Sales
+              </button>
+            </div>
+            <div class="mt-10 flex items-center gap-6 text-xs text-slate-400">
+              <span>API Response 120ms</span>
+              <span>Uptime 99.99%</span>
+              <span>Teams 2,400+</span>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-indigo-500/10">
+              <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+                <div class="flex items-center justify-between text-xs text-slate-400">
+                  <span>Live Insights</span>
+                  <span>更新: 00:42</span>
+                </div>
+                <div class="mt-6 space-y-4">
+                  <div class="rounded-xl bg-white/5 p-4">
+                    <p class="text-sm font-semibold text-white">自動化フロー</p>
+                    <p class="mt-2 text-xs text-slate-400">
+                      12プロセスが自動で実行中
+                    </p>
+                  </div>
+                  <div class="rounded-xl bg-white/5 p-4">
+                    <p class="text-sm font-semibold text-white">AI分析</p>
+                    <p class="mt-2 text-xs text-slate-400">
+                      予測精度 98.2%
+                    </p>
+                  </div>
+                  <div class="rounded-xl bg-white/5 p-4">
+                    <p class="text-sm font-semibold text-white">統合アプリ</p>
+                    <p class="mt-2 text-xs text-slate-400">
+                      45サービスと連携済み
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mx-auto w-full max-w-6xl px-6 pb-24 pt-10">
+        <div class="flex flex-col gap-3">
+          <p class="text-sm uppercase tracking-[0.3em] text-indigo-300">Features</p>
+          <h2 class="text-3xl font-semibold text-white">AIが支える3つの強み</h2>
+          <p class="max-w-2xl text-base text-slate-300">
+            データの収集から洞察までを一気通貫で支援し、チームの意思決定を加速します。
+          </p>
+        </div>
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-300">
+              ⚡
+            </div>
+            <h3 class="mt-5 text-lg font-semibold text-white">自動化ワークフロー</h3>
+            <p class="mt-3 text-sm text-slate-300">
+              複雑な業務フローをドラッグで設計し、繰り返し作業を完全自動化。
+            </p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-cyan-400/20 text-cyan-200">
+              📊
+            </div>
+            <h3 class="mt-5 text-lg font-semibold text-white">リアルタイム分析</h3>
+            <p class="mt-3 text-sm text-slate-300">
+              重要指標を即時に可視化し、AIが次のアクションを提案します。
+            </p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-400/20 text-emerald-200">
+              🔒
+            </div>
+            <h3 class="mt-5 text-lg font-semibold text-white">セキュアな統合</h3>
+            <p class="mt-3 text-sm text-slate-300">
+              監査ログと権限管理で企業向けの高いセキュリティ要件を満たします。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
